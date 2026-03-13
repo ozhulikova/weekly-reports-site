@@ -1,0 +1,131 @@
+<!doctype html><html><head><meta charset='utf-8'/><meta name='viewport' content='width=device-width,initial-scale=1'/>
+<style>
+:root{--bg:#f3f5fb;--ink:#121a2e;--muted:#63708b;--surface:#ffffff;--line:#d7dceb;--brand:#4b11c6;--good:#19a55a;--bad:#e5484d;--warn:#f59e0b;}
+*{box-sizing:border-box}
+body{margin:0;padding:18px;background:var(--bg);color:var(--ink);font-family:"Manrope","Segoe UI",sans-serif}
+.container{max-width:1060px;margin:0 auto}
+.hero{background:linear-gradient(130deg,#2f0c87,var(--brand) 65%,#6820df);color:#fff;border-radius:20px;padding:14px 14px 12px;box-shadow:0 14px 28px rgba(75,17,198,.26)}
+.title{font-size:32px;line-height:1.05;font-weight:800;margin:0}
+.week{margin-top:8px;font-size:18px;font-weight:700}
+.cards{margin-top:12px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 11px;box-shadow:0 4px 14px rgba(18,26,46,.06)}
+.card h3{margin:0;font-size:16px;line-height:1.2;font-weight:800}
+.v{margin-top:4px;font-size:34px;line-height:1;font-weight:900}
+.meta{margin-top:4px;font-size:12px;color:var(--muted)}
+.trend{margin-top:6px;display:flex;align-items:center;gap:7px;font-size:14px;font-weight:800}
+.dot{width:10px;height:10px;border-radius:999px;background:var(--warn);box-shadow:0 0 0 4px rgba(245,158,11,.2)}
+.status-good .dot{background:var(--good);box-shadow:0 0 0 4px rgba(25,165,90,.18)}
+.status-bad .dot{background:var(--bad);box-shadow:0 0 0 4px rgba(229,72,77,.18)}
+.status-neutral .dot{background:var(--warn);box-shadow:0 0 0 4px rgba(245,158,11,.2)}
+.status-good .txt{color:var(--good)}
+.status-bad .txt{color:var(--bad)}
+.status-neutral .txt{color:#b45309}
+.vs{color:var(--muted);font-weight:700}
+.double{margin-top:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:11px}
+.double h2,.panel h2{margin:0 0 8px;font-size:22px;line-height:1.1;font-weight:900}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.k{font-size:13px;color:var(--muted);font-weight:700}
+.num{font-size:24px;font-weight:900;line-height:1.1}
+.subnum{font-size:13px;color:var(--muted);margin-top:2px}
+.panel{margin-top:12px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:11px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th,td{padding:8px 5px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:11px;color:var(--muted)}
+.pill{display:inline-block;background:#ece8ff;color:#4b11c6;border-radius:999px;padding:2px 7px;font-weight:800}
+ul{margin:0;padding-left:18px} li{margin:6px 0}
+@media (max-width:980px){.cards{grid-template-columns:1fr 1fr}}
+@media (max-width:680px){.cards{grid-template-columns:1fr}}
+</style></head><body><div class='container'>
+<section class='hero'>
+<h1 class='title'>Indonesia Weekly Snapshot</h1>
+<div class='week'>Week: March 9, 2026 - March 15, 2026</div>
+</section>
+<section class='cards'>
+<article class='card'>
+<h3>Active RFP</h3>
+<div class='v'>14</div>
+<div class='meta'>7 companies</div>
+<div class='trend status-bad'><span class='dot'></span><span class='txt'>↓ -6</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>New RFP</h3>
+<div class='v'>12</div>
+<div class='meta'>6 companies</div>
+<div class='trend status-bad'><span class='dot'></span><span class='txt'>↓ -5</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>New stage</h3>
+<div class='v'>10</div>
+<div class='meta'>4 companies</div>
+<div class='trend status-neutral'><span class='dot'></span><span class='txt'>→ 0</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>Completed RFP</h3>
+<div class='v'>12</div>
+<div class='meta'>5 companies</div>
+<div class='trend status-good'><span class='dot'></span><span class='txt'>↑ +1</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>Completed &lt;3 bids</h3>
+<div class='v'>0</div>
+<div class='meta'>0 companies</div>
+<div class='trend status-good'><span class='dot'></span><span class='txt'>↓ -2</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>Completed without winner</h3>
+<div class='v'>12</div>
+<div class='meta'>5 companies</div>
+<div class='trend status-bad'><span class='dot'></span><span class='txt'>↑ +5</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>Summarizing</h3>
+<div class='v'>16</div>
+<div class='meta'>5 companies</div>
+<div class='trend status-bad'><span class='dot'></span><span class='txt'>↑ +2</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>Summarizing &lt;3 bids</h3>
+<div class='v'>4</div>
+<div class='meta'>2 companies</div>
+<div class='trend status-bad'><span class='dot'></span><span class='txt'>↑ +1</span><span class='vs'>vs last week</span></div>
+</article>
+<article class='card'>
+<h3>Summarising next week</h3>
+<div class='v'>10</div>
+<div class='meta'>6 companies</div>
+<div class='trend status-good'><span class='dot'></span><span class='txt'>↓ -5</span><span class='vs'>vs last week</span></div>
+</article>
+</section>
+<section class='double'>
+<h2>New registered</h2>
+<div class='two'>
+<div>
+<div class='k'>Clients</div>
+<div class='num'>0</div>
+<div class='subnum'>With published: 0</div>
+<div class='trend status-bad'><span class='dot'></span><span class='txt'>↓ -1</span><span class='vs'>vs last week</span></div>
+</div>
+<div>
+<div class='k'>Suppliers</div>
+<div class='num'>33</div>
+<div class='subnum'>With bids: 4</div>
+<div class='trend status-good'><span class='dot'></span><span class='txt'>↑ +6</span><span class='vs'>vs last week</span></div>
+</div>
+</div>
+</section>
+<section class='panel'>
+<h2>Focus RFP next week</h2>
+<table><thead><tr><th>root_rfp_id</th><th>Company</th><th>RFP</th><th>bids</th><th>invites</th><th>close_at</th><th>owner</th></tr></thead><tbody>
+<tr><td>2288</td><td>PT Barata Indonesia (Persero)</td><td>KEBUTUHAN SCRAP PREMIUM FRANCO GRESIK</td><td><span class='pill'>0</span></td><td>7</td><td>2026-03-17T08:00:00Z</td><td></td></tr>
+<tr><td>2402</td><td>PT CHAKRA JAWARA</td><td>Tools for PT Naraya Dipta Buana Cakung</td><td><span class='pill'>0</span></td><td>45</td><td>2026-03-17T02:00:00Z</td><td></td></tr>
+<tr><td>2252</td><td>Hospital Indonesia</td><td>[Aanwijzing] Renovasi Ruang IPD - Rumah Sakit di Jakarta Barat (Aanwijzing + Site Visit 11 Maret 2026)</td><td><span class='pill'>0</span></td><td>100</td><td>2026-03-16T08:00:00Z</td><td></td></tr>
+<tr><td>2393</td><td>PT Anugerah Pharmindo Lestari</td><td>Plastic Wrapping Clear</td><td><span class='pill'>1</span></td><td>35</td><td>2026-03-17T09:15:00Z</td><td></td></tr>
+<tr><td>1974</td><td>Hospital Indonesia</td><td>[After Clarification] Renovasi Ruangan Rumah Sakit di Bekasi - IPD KRIS</td><td><span class='pill'>2</span></td><td>41</td><td>2026-03-18T10:00:00Z</td><td></td></tr>
+<tr><td>2366</td><td>PT Barata Indonesia (Persero)</td><td>KEBUTUHAN PENGADAAN ELECTRICAL DAN AKSESORIES</td><td><span class='pill'>1</span></td><td>148</td><td>2026-03-17T05:00:00Z</td><td></td></tr>
+</tbody></table>
+</section>
+<section class='panel'>
+<h2>Risk Flags</h2>
+<ul><li>Pipeline imbalance: New stage is 71% of Active RFP. Focus on client publishing activity and tender launch stimulation.</li><li>Winner-selection risk: 12 of 12 completed RFPs have no winner. CSM focus: client support on winner selection.</li><li>Supplier targeting risk: 1 tenders have 0 bids despite &gt;50 invites. Improve supplier targeting quality.</li><li>6 tenders may close next week with bids&lt;3.</li></ul>
+</section>
+</div></body></html>
