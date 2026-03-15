@@ -24,4 +24,3 @@ Week: March 9, 2026 - March 15, 2026
 • Pipeline slowdown: New stage is 0% of Active RFP. Focus on client publishing activity and tender launch stimulation.
 • 5 tenders may close next week with bids<3.
 • Previous week data has gaps; some baselines may be partial.
-• Pipeline load risk: Summarising next week increased WoW (1 -> 5). Prioritize owner/TSM pipeline review.
