@@ -3,23 +3,23 @@ Week: March 9, 2026 - March 15, 2026
 
 **KPI cards**
 • Active RFP: 3 (2 companies)
-• New RFP: 0 (0 companies)
+• New RFP: 2 (2 companies)
 • New stage: 0 (0 companies)
-• Completed RFP: 0 (0 companies)
+• Completed RFP: 3 (2 companies)
 • Completed <3 bids: 0 (0 companies)
-• Completed without winner: 0 (0 companies)
-• Summarizing: 0 (0 companies)
+• Completed without winner: 3 (2 companies)
+• Summarizing: 1 (1 companies)
 • Summarizing <3 bids: 0 (0 companies)
 • Summarising next week: 1 (1 companies)
 
 **New registered**
 • Clients: 0 (With published: 0)
-• Suppliers: 0 (With bids: 0)
+• Suppliers: 4 (With bids: 0)
 
 **Risk flags**
-• Data gap: missing new_rfp input
 • Data gap: missing new_stage input
-• Data gap: missing completed input
-• Data gap: missing status_3_last_week input
 • Pipeline slowdown: New stage is 0% of Active RFP. Focus on client publishing activity and tender launch stimulation.
+• Winner-selection risk: 3 of 3 completed RFPs have no winner. CSM focus: client support on winner selection.
+• Empty supplier-base growth: newly registered suppliers are not placing bids.
 • Previous week data has gaps; some baselines may be partial.
+• Pipeline load risk: Summarising next week increased WoW (0 -> 1). Prioritize owner/TSM pipeline review.
